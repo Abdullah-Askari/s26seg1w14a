@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "htmlhint": "htmlhint **/*.html",
+    "stylelint": "stylelint **/*.css",
+    "build": "parcel build \"source/index.html\" --dist-dir \"dist\" --public-url \"/\""
   },
   "keywords": [],
   "author": "",
